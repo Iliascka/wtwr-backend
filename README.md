@@ -1,26 +1,25 @@
-# WTWR (What to Wear?): Back End
+# WTWR (What to Wear?): Backend
 
-The back end for the WTWR application provides a REST API for managing users and clothing items. It uses MongoDB for data storage and supports creating and retrieving users and clothing items, deleting items, and liking or disliking items.
+The backend for WTWR is a RESTful API built with Node.js, Express, and MongoDB. It handles user authentication, profile management, and clothing item operations, including creating, retrieving, deleting, liking, and unliking items.
+
+WTWR is a fully responsive, full-stack weather-based clothing application that integrates a third-party weather API to help users choose appropriate clothing based on current weather conditions.
 
 ## Technologies and Techniques
 
-- Node.js
-- Express.js
+- Node.js and Express.js
 - MongoDB and Mongoose
-- Validator
-- ESLint with Airbnb style guide
-- Nodemon
-- REST API routing and controllers
-- Error handling and data validation
+- JWT authentication
+- RESTful API routes and controllers
+- Data validation with Joi and Validator
+- Centralized error handling
+- Winston logging
+- ESLint for code quality and consistency
+- Nodemon for development
 
 ## Frontend Repository
 
-[WTWR Frontend](https://github.com/Iliascka/se_project_react.git)
+[WTWR Frontend](https://github.com/Iliascka/se_project_react)
 
 ## Deployed Project
 
 [WTWR Live Site](https://wtwr-ilias.aerwear.ro)
-
-## Project Pitch Video
-
-Check out this video [https://www.loom.com/share/2682fec991b0402e8dcbe19fadec75d7] where I describe my project.
